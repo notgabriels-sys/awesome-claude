@@ -16,6 +16,7 @@ Your contributions are always welcome! Please ensure your pull request adheres t
 - Start the description with a capital and end with a full stop/period.
 - Check your spelling and grammar.
 - Make sure your text editor is set to remove trailing whitespace.
+- Run `npm test` before opening the pull request. It checks entry format, table-of-contents anchors, and duplicate links, and needs no install.
 - The pull request should have a useful title and include a link to the project and why it should be included.
 
 ### Project Standards
@@ -32,7 +33,7 @@ When adding a new project, please ensure it:
 
 1. Fits into one of the existing categories or warrants a new category
 2. Includes a concise, clear description of what it does
-3. Has the format: `- [Name](URL) - Description.`
+3. Has the format: `- [Name](URL) - Description.` (one space on each side of the dash)
 4. Is added to the bottom of the relevant category
 5. Has the GitHub star count if it's significant (1k+ stars)
 

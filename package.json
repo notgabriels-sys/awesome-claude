@@ -4,9 +4,10 @@
   "description": "A curated list of awesome Claude AI projects and resources",
   "main": "README.md",
   "scripts": {
+    "check": "node scripts/check-readme.mjs",
     "lint": "awesome-lint README.md",
-    "test": "npm run lint",
-    "check-links": "markdown-link-check README.md --config .github/workflows/markdown-link-check-config.json"
+    "test": "npm run check",
+    "check-links": "markdown-link-check README.md --config .github/markdown-link-check.json"
   },
   "repository": {
     "type": "git",
